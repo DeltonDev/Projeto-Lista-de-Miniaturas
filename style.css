@@ -69,13 +69,16 @@ div a:hover {
 }
 
 section table caption {
-    border: 1px solid black;
     width: 100%;
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 5px;
 }
 
+section table td {
+    background: #FFFFFF;
+    border: 1px solid black;
+}
 
 .col{
     padding: 10px 40px;
@@ -83,10 +86,6 @@ section table caption {
     max-width: 300px;
 }
 
-.car {
-    padding: 0;
-
-}
 .card img{
     width: 100%;
     display: block;
