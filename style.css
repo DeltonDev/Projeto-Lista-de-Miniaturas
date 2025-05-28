@@ -6,7 +6,7 @@
 }
 
 .profile-img {
-    width: 120px;
+    width: 40%;
     border-radius: 50%;
     border: 1px solid #585555;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -33,7 +33,7 @@
 
 .figcaption-profile {
     position: absolute;
-    top: 203px;
+    top: 22%;
     left: 4%;
 }
 
@@ -54,9 +54,9 @@ div a:hover {
     width: auto;
     height: auto;
     font-size: 20px;
-    position: absolute;
-    top: 35%;
-    left: 65px;
+    position: relative;
+    top: 16%;
+    left: 23%;
 }
 
 
@@ -66,6 +66,7 @@ div a:hover {
     height: 100vh;
     position: absolute;
     background: linear-gradient(90deg, rgba(119, 136, 153, 0.3) 40%, rgb(137, 150, 163, 0.5) 60%);
+    
 }
 
 section table caption {
@@ -89,6 +90,10 @@ section table td {
 .card img{
     width: 100%;
     display: block;
+}
+
+#scroll {
+    overflow-x: auto;
 }
 
 
